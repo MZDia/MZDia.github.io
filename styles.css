@@ -1,5 +1,5 @@
 body {
-    background: rgb(244, 245, 204);
+    background: black;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -9,9 +9,21 @@ h1{
 }
 
 a {
-    color: darkred;
+    color: purple;
 }
 
 a:hover {
-    color: pink;
+    color:#473eb8 ;
+}
+
+.assignment {
+    display: flex;
+    padding: 10px;
+    background:#dbc8e6;
+    margin: 10px;
+}
+
+.assignment img {
+    height: 350px;
+    padding:10px;
 }
