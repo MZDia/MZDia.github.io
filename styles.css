@@ -10,6 +10,7 @@ h1{
 
 a {
     color: purple;
+    text-decoration: none;
 }
 
 a:hover {
@@ -25,5 +26,6 @@ a:hover {
 
 .assignment img {
     height: 350px;
-    padding:10px;
+    border: 4px solid black;
+    margin-right: 20px;
 }
