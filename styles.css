@@ -17,14 +17,22 @@ a:hover {
     color: #cf7944 ;
 }
 
-.assignment {
+
+.assignments {
     display: flex;
+    flex-wrap: wrap;
+}
+.assignment {
+    width: 50%;
     padding: 10px;
     background:#377c6a;
     margin: 10px;
     margin-bottom: 30px;
     border-radius: 5px;
     box-shadow: 5px 10px #334d43;
+
+    margin-left: auto;
+    margin-right:auto;
 }
 
 .assignment img {
